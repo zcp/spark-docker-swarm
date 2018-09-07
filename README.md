@@ -33,3 +33,4 @@ Check out the [post](https://testdriven.io/running-spark-with-docker-swarm-on-di
     ```sh
     $ sh scripts/destroy.sh
     ```
+#spark-dockr-swarm
