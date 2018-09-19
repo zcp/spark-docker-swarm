@@ -38,7 +38,7 @@ http://192.168.42.66:8080/ where 192.168.42.66 is docker-manager's ip
 
 11. run the spark app
     #get container ID which runs spark master
-   docker-machine ssh docker-manager "docker ps --filter name=master --format "{{.ID}}"
+   docker-machine ssh docker-manager "docker ps --filter name=master --format {{.ID}}"
   docker cp count.py $CONTAINER_ID:/tmp
 
   docker exec $CONTAINER_ID \
